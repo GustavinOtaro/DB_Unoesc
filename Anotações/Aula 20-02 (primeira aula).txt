@@ -1,0 +1,13 @@
+DBA - DataBase admin
+SGDB - Sistema de Gerenciamento de BD
+- Oracle
+- SQL Sever - Microsoft
+- IBM DB2
+- MySQL
+- Postgres
+- MariaDB
+
+Diagramas de E/R
+
+Data Warehouse 
+Armazem de Dados 

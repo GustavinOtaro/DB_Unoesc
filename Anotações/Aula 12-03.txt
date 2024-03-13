@@ -1,0 +1,54 @@
+CONSTRAINT ----------------------------------------------
+
+São ultilizadas para especificar as regras de dados em uma tabela.
+Limitam os tipos de dados que podem ser armazenados garantem a consistencia dos dados e em caso de qualquer violação 
+de uma regra definida a operação será abordada e uma exceção lançada.
+
+Pode ser de nivel de coluna ou de tabela.
+
+Tipos mais comuns de CONSTRAINTS:
+- NOT NULL
+- UNIQUE 
+- PRIMARY KEY
+- FOREIGN KEY - Prevenir que ações removam links entre tabelas.
+- CHECK - Busca garantir que valores de uma coluna satisfação a uma condição especifica.
+- DEFAULT - 
+- CREATE INDEX - 
+
+
+PK - Primary Key
+
+Responsavel por garantir a unicidade do resgistro em uma tabela.
+
+Resgistro é o conjunto de dados contidos nas colunas de uma  tabel do banco de dados, também chamada de TUPLA.
+Uma tabela pode conter apenas uma PK e ela pode ser SIMPLES ou COMPOSTA.
+
+FK - Foreign Key 
+É um campo ou conjunto de colunas em um tabela que fazem referencia a uma chave primaria de uma tabela externa.
+Uma tabela com uma FK também é chamada de tabela filha, e a tabela PK com a chave primaria especifica é chamada
+de pai e mãe.
+
+APLICATIVO CRIAÇÃO DE DIAGRAMAS: app.diagrams.net
+
+Os relacionamentos entre Entidades de uma especificação de CARDINALIDADE, que pode ser:
+1:1 -> Um pra um.
+1:N
+N:1
+N:N
+
+ATIVIDADE:
+
+Uma Imoviliaria precisa de um banco de dados para armazenar informações do seu acervo de imoveis.
+Para isto é preciso organizar os dados dos itens ,
+classifican-dos por categoria (apartemento, casas, sitios), tipo de localização (rural ou urbano) e tipo de negocio 
+(locação ou venda). Os itens devem possuir os seguintes dados: Nome, Descrição, Valor, Nro de Comodos e também uma listagem de imagens.
+Elabore um Modelo de Entidades-relcionamentos que atenda este requisito desenhando um diagrama ilustrativo e escrevendo o seu respectivo 
+script .sql.
+
+
+
+
+
+
+
+
